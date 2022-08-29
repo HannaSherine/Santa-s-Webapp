@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-between;    
+}
+li{
+    margin-right: 80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-weight: 600;
+    color: white;
+}
+
+button {
+    font-weight: 600;
+    font-size: 1.5em;
+    width: 40%;
+    color: black;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    margin-top: 30px;
+  }
+  .navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+  } 
+.logo{
+    padding-left: 40px;
+}
+  /* Hero */
+  
+  .hero {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    padding-top: 80px;
+    background-image: radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(355, 85%, 93%, 1) 0, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0, transparent 50%),
+    radial-gradient(at 40% 20%, hsla(28, 100%, 74%, 1) 0, transparent 50%);
+  }
+ 
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 50%;
+  }
+
+  .hero h1 {
+    font-weight: 600;
+    font-size: 6vw;
+    color: black;
+    margin: 0;
+    line-height: 1em;
+  }
+  
+.hero p {
+    font-weight: 300;
+    font-size: 1.5vw;
+    color: black;
+    width: 85%;
+    /* margin: 0;
+    line-height: 90px; */
+  }
+  
+.hero-right {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+  }
+ main .container{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  width: 100%; */
+ }
+main h3 {
+  font-size: 2.5em;
+}
+.you-better-watchout{
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  padding-top: 80px;
+}
+.you-better-watchout .left{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+}
+.you-better-watchout .house{
+  width: 100%;
+    height: 100%;
+}
+.cards-display {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+
+.card {
+  background-color: hsla(355, 85%, 93%, 1);
+  margin: 15px;
+  border-radius: 10px;
+  padding: 30px;
+  width: 16%;
+}
+
+.indicator {
+  font-weight: 600;
+  font-size: 2.1em;
+  margin: 0;
+}
+
+/* Find Santa Claus */
+.container-find {
+  background-color: hsla(242, 100%, 70%, 1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  overflow: hidden;
+  position: relative;
+}
+.content-find {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 45px;
+}
+
+.content-find p {
+  font-size: 1.5vw;
+  width: 40%;
+}
+
+.cta-btn-find {
+  font-weight: 600;
+  font-size: 1.5em;
+  width: 20%;
+  color: black;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0;
+  margin-top: 30px;
+}
+.cross-text {
+  text-decoration: line-through;
+}
+
+.socks {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  left: -100px;
+  z-index: 9999;
+}
+
+.sleigh {
+  width: 850px;
+  height: 850px;
+  position: absolute;
+  right: -50px;
+  bottom: -210px;
+}
+/* Letters */
+.container-letters {
+  display: flex;
+  width: 100%;
+}
+
+.letters-display {
+  display: flex;
+  width: 100%;
+}
+
+.write-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  background-color: hsla(355, 85%, 93%, 1);
+}
+
+.view-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+}
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer a {
+  color: white;
+}
